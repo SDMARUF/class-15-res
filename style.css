@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear-fix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+header{
+    background-color: #22C3A3;
+    padding: 20px;
+}
+.header-left{
+    float: left;
+}
+.header-left h1{
+    color: #fff;
+}
+.header-right{
+    float: right;
+}
+.header-right ul{
+    list-style: none;
+}
+.header-right ul li{
+    display: inline-block;
+    padding: 10px;
+    line-height: 20px;
+}
+.header-right ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+/* BANNER */
+.banner{
+    padding: 250px 0px;
+    background: url(./Picture/header-bg01.jpg) no-repeat center;
+    background-size: cover;
+}
+.banner-caption h1 {
+	text-align: center;
+	font-size: 43px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.banner-caption p {
+	font-size: 26px;
+	color: #fff;
+	text-align: center;
+	margin: 10px 0px;
+}
+.banner-caption a {
+	text-decoration: none;
+	border: #fff solid 1px;
+	margin: 32px auto;
+	display: block;
+	width: 10%;
+	text-align: center;
+	padding: 10px 20px;
+	color: #fff;
+}
+.service{
+    margin-top: 50px;
+    text-align: center;
+    border-bottom: #22C3A3 solid 5px;
+}
+.service-caption h2 {
+	font-size: 52px;
+	color: #111;
+}
+.service-caption p{
+	color: #606060;
+	margin: 10px 0px;
+}
+.box1{
+    float: left;
+    width: 25%;
+    margin-top: 70px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+.box1 i {
+	font-size: 50px;
+}
+.box1 h2 {
+	font-size: 32px;
+	color: #606060;
+	margin: 10px 0px;
+}
+.box1 p {
+	width: 227px;
+	margin: auto;
+}
+/* ABOUT */
+.about-caption{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about-caption h1 {
+	font-size: 52px;
+}
+.about-caption p {
+	font-size: 16px;
+	margin-top: 15px;
+}
+.about-left{
+    float: left;
+    width: 50%;
+}
+.about-right{
+    float: right;
+    width: 50%;
+}
+.about-right ul{
+    list-style: none;
+}
+.about-right ul li strong {
+	font-size: 30px;
+	display: block;
+	margin-bottom: 12px;
+	margin-top: 13px;
+}
+.about-right ul li {
+	line-height: 22px;
+	font-size: 17px;
+}
+/* contact */
+.contact-caption{
+    text-align: center;
+    margin-top: 50px;
+}
+.contact-caption h1{
+    font-size: 52px;
+}
+.contact-caption p {
+	font-size: 16px;
+	margin-top: 15px;
+}
+.box2{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    margin-top: 70px;
+}
+/* FOOTER */
+.footer{
+    background-color: #22C3A3;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+.footer i{
+    padding: 0px 10px;
+}
+footer{
+    background-color: #606060;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}

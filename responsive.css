@@ -1,0 +1,129 @@
+@media (max-width:1300px) {
+    .about-left {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    .about-right {
+        float: right;
+        width: 100%;
+        text-align: center;
+    }
+    .about-right ul li {
+        width: 70%;
+        margin: 20px auto;
+        border: #fff solid 1px;
+    }
+}
+@media (max-width:1200px) {
+    .container{
+        max-width: 100%;
+        margin: auto;
+    }
+    
+}
+@media (max-width:978px) {
+    .box1 {
+        width: 50%;
+    }
+}
+@media (max-width:930px) {
+    .container{
+        max-width: 100%;
+        margin: auto;
+    }
+    .box1 {
+        width: 50%;
+    }
+    .service-caption p {
+        width: 58%;
+        margin: auto;
+    }
+    .about-caption p {
+        width: 50%;
+        margin: auto;
+    }
+    .about-left {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    .about-right {
+        float: right;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width:798px) {
+    .header-left {
+        float: left;
+        width: 100%;
+        text-align: center;
+        max-width: 100%;
+    }
+    .header-right {
+        float: right;
+        width: 100%;
+        text-align: center;
+    }
+    .banner-caption h1 {
+        font-size: 29px;
+    }
+    .banner-caption p {
+        font-size: 18px;
+    }
+    .service-caption h2 {
+        font-size: 37px;
+    }
+    .service-caption p {
+        margin: auto;
+        width: 467px;
+    }
+    .box1 {
+        width: 100%;
+    }
+    .about-caption h1 {
+        font-size: 38px;
+    }
+    .about-caption p {
+        font-size: 17px;
+        width: 433px;
+        margin: 10px auto;
+    }
+    .about-left {
+        width: 100%;
+        margin: auto;
+    }
+    .about-right {
+        float: right;
+        width: 100%;
+    }
+    .contact-caption h1 {
+        font-size: 38px;
+    }
+    .box2 {
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin-top: 70px;
+    }
+    .banner-caption a {
+        width: 12%;
+    }
+    .container{
+        max-width: 100%;
+        margin: auto;
+    }
+    .about-right ul li {
+        line-height: 22px;
+        font-size: 17px;
+        width: 77%;
+        margin: auto;
+    }
+    .box2 {
+        float: left;
+        width: 33.3%;
+        text-align: center;
+        margin-top: 70px;
+    }
+}
